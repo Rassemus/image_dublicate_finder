@@ -38,7 +38,7 @@ std::string calculateFileHash(const fs::path& filePath) {
 }
 
 int main() {
-    const std::string directory = ""; // Hakemisto, joka tarkistetaan
+    const std::string directory = "/directory"; // Hakemisto, joka tarkistetaan
     std::unordered_map<std::string, std::vector<std::string>> fileMap;
 
     try {
